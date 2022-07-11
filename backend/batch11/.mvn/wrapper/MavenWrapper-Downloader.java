@@ -3,8 +3,8 @@ import java.io.*;
 import java.nio.channels.*;
 import java.util.Properties;
 public class MvnWrpDow{
-    private static final String WRP_VER="0.5.5";
-    private static final String DEFAULT_DOWNLOAD_URL="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/"+WRP_VER+"/maven-wrapper-"+WRP_VER+".jar";
+    private static final String WRP_VER="3.1.0";
+    private static final String DEFAULT_DOWNLOAD_URL="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/"+WRP_VER+"/maven-wrapper-"+WRP_VER+".jar";
     private static final String Mvn_Wrp_PROPERTIES_PATH=".mvn/wrapper/maven-wrapper.properties";
     private static final String Mvn_Wrp_JAR_PATH=".mvn/wrapper/maven-wrapper.jar";
     private static final String PROPERTY_NAME_WRAPPER_URL="wrapperUrl";
@@ -68,3 +68,4 @@ public class MvnWrpDow{
         RBC.close();
     }
 }
+} 
