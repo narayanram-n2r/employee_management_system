@@ -18,11 +18,12 @@ export class AddEmployeeComponent implements OnInit{
       lastName: "",
       gender: "",
       email: "",
-      dob: null,
+      dob: " ",
       phone: "",
       bio: "",
+      
       employeeType: {
-         id: null,
+         id:null,
          type: ""
       }
    }
